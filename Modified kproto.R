@@ -1,6 +1,6 @@
 #########################################################
-# Modified kproto function						              		#
-# by Jeong Hwa Kim						                  				#
+# Modified kproto function(2017.12.17)	             		#
+# by Jeong Hwa Kim                                      #
 #													                            	#
 # Why & what is modified?:		              						#
 # Original code has reduced the k, 	          					#
