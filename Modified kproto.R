@@ -1,18 +1,18 @@
 #########################################################
-# Modified kproto function(2017.12.17)	             		#
-# by Jeong Hwa Kim                                      #
-#													                            	#
-# Why & what is modified?:		              						#
-# Original code has reduced the k, 	          					#
-# the number of clusters which the user enters,	    		#
-# when the distance between the initial prototpes is 0.	#
-# To solve this problem,							                	#
-# modified 'kproto.default' function runs that	    		#
-# repeats the random sampling for the initial prototpes	#
-# untill the distances of them are not 0.		        		#
-#												                            		#
-# Original code from: 			                						#
-# https://rdrr.io/cran/clustMixType/src/R/kprototypes.R #
+# The original code from:
+# https://rdrr.io/cran/clustMixType/src/R/kprototypes.R
+#
+# Modified kproto function(2017.12.17)
+# by Jeong Hwa Kim(jengh31@gmail.com)
+#
+# Why & what is modified?:
+# Original code has reduced the k,
+# the number of clusters which the user enters,
+# when the distance between the initial prototpes is 0.
+# To solve this problem,
+# modified 'kproto.default' function runs that
+# repeats the random sampling for the initial prototpes
+# untill the distances of them are not 0.
 #########################################################
 
 #' @title k prototypes clustering
